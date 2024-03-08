@@ -1,0 +1,29 @@
+Liste des commandes testés avec le minishell:
+-----------------------------------------------
+ls
+ls -l
+gedit
+clear
+rm [fichier]
+rmdir [répertoire]
+cd ..
+echo hello world
+ls &
+exit
+pwd
+ls ; pwd
+ls ; pwd ; cd ..
+pwd > fich99
+cat fich99
+ls aa 2> fichErr
+grep home < fich99
+pwd >> fich99
+ls dd 2>> fichErr
+echo this is a message >&2
+ls aa > fich 2>&1
+ls aa || echo hello
+ls . || echo hello
+ls . && echo hello
+ls aa && echo hello
+export VAR hello
+unset VAR
